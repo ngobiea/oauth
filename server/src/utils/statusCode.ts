@@ -13,3 +13,4 @@ export const statusCode = {
   NOT_IMPLEMENTED: 501,
   SERVICE_UNAVAILABLE: 503,
 };
+export const clientIp = '';

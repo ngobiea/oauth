@@ -69,7 +69,7 @@ mongoose
     console.log('Connected to MongoDB');
     console.log(mongo.connection.readyState);
     app.listen(PORT, () => {
-      console.log(`Server is running on http://localhost:${PORT}`);
+      console.log(`Server is running on http://52.66.245.3:${PORT}`);
     });
   })
   .catch((err) => {

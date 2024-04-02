@@ -14,5 +14,5 @@ export const redirectGoogle = async (req: Request, res: Response) => {
 
   // take a look at the scopes originally provisioned for the access token
   console.log(tokenInfo);
-  res.redirect('https://localhost:5173/google?google=success');
+  res.redirect('https://52.66.245.3:5173/google?google=success');
 };

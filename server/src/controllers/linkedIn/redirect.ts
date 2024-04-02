@@ -8,5 +8,5 @@ import type { Request, Response } from 'express';
 //     >;
 
 export const redirect = (_req: Request, res: Response) => {
-  res.redirect('https://localhost:5173/linkedin??linkedin=success');
+  res.redirect('https://52.66.245.3:5173/linkedin??linkedin=success');
 };

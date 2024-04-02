@@ -26,6 +26,6 @@ export const redirect = (req: Request, res: Response) => {
       JWT_SECRET,
       { expiresIn: JWT_EXPIRATION_TIME }
     );
-    res.redirect('https://localhost:5173/shopify?token=' + token);
+    res.redirect('https://52.66.245.3:5173/shopify?token=' + token);
   });
 };
